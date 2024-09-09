@@ -30,10 +30,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp GRAVE         &kp N1        &kp N2        &kp N3        &kp N4        &kp N5       &kp N6     &kp N7           &kp N8           &kp N9           &kp N0           &kp NON_US_BACKSLASH
-&bt BT_CLR        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &kp MINUS    &kp EQUAL  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &kp PRINTSCREEN  &trans
-&kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &kp LG(TAB)   &kp LBKT      &kp HOME     &kp END    &kp RBKT         &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &tog 3           &kp DELETE
-                                              &trans        &trans        &trans       &trans     &trans           &trans
+&kp GRAVE         &kp N1        &kp N2        &kp N3        &kp N4        &kp N5        &kp N6      &kp N7           &kp N8           &kp N9           &kp N0           &kp NON_US_BACKSLASH
+&bt BT_CLR        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &kp MINUS     &kp EQUAL   &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &kp PRINTSCREEN  &trans
+&kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &kp LG(TAB)   &kp LBKT      &kp HOME      &kp END     &kp RBKT         &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &tog 3           &kp DELETE
+                                              &trans        &trans        &sys_reset    &sys_reset  &trans           &trans
             >;
         };
 
@@ -45,10 +45,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp LC(Z)      &kp LC(C)          &kp UP_ARROW     &kp LC(V)         &kp LC(F)       &kp C_BRIGHTNESS_INC    &kp F1     &kp F2    &kp F3    &kp F4    &kp F5    &kp F6
-&kp LS(LC(Z))  &kp LEFT_ARROW     &kp DOWN         &kp RIGHT         &kp SPACE       &kp C_BRI_DEC           &kp F7     &kp F8    &kp F9    &kp F10   &kp F11   &kp F12
-&kp RG(TAB)    &kp K_VOLUME_DOWN  &kp K_VOLUME_UP  &kp K_PLAY_PAUSE  &kp K_PREVIOUS  &kp K_NEXT              &kp UNDER  &kp PLUS  &kp LBRC  &kp RBRC  &kp PIPE  &trans
-                                                   &trans            &trans          &trans                  &trans     &trans    &trans
+&kp LC(Z)      &kp LC(C)          &kp UP_ARROW     &kp LC(V)         &kp LC(F)       &kp C_BRIGHTNESS_INC    &kp F1   &kp F2    &kp F3    &kp F4    &kp F5    &kp F6
+&kp LS(LC(Z))  &kp LEFT_ARROW     &kp DOWN         &kp RIGHT         &kp SPACE       &kp C_BRI_DEC           &kp F7   &kp F8    &kp F9    &kp F10   &kp F11   &trans
+&kp RG(TAB)    &kp K_VOLUME_DOWN  &kp K_VOLUME_UP  &kp K_PLAY_PAUSE  &kp K_PREVIOUS  &kp K_NEXT              &kp F12  &kp PLUS  &kp LBRC  &kp RBRC  &kp PIPE  &trans
+                                                   &trans            &trans          &trans                  &trans   &trans    &trans
             >;
         };
 
